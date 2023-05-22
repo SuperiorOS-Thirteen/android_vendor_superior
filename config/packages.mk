@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub
 
+# Themes
+PRODUCT_PACKAGES += \
+    RoundQSOverlay
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     7z \
