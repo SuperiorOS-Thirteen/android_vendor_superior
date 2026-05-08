@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
     endif
 endif
 
-ifeq ($(BUILD_WITH_GAPPS),true)
+ifeq ($(WITH_GAPPS),true)
 SUPERIOR_EDITION := GAPPS
 else
 SUPERIOR_EDITION := Vanilla

@@ -43,8 +43,9 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Gapps
-ifeq ($(BUILD_WITH_GAPPS),true)
-    $(call inherit-product, vendor/gapps/common/common-vendor.mk)
+ifeq ($(WITH_GAPPS),true)
+SUPERIOR_CORE := true
+    $(call inherit-product, vendor/gms/common/common-vendor.mk)
 endif
 
 # Superior Permissions
