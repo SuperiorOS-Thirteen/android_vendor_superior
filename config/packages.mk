@@ -94,11 +94,9 @@ endif
 
 
 # Charger
-ifeq ($(TARGET_INCLUDE_PIXEL_CHARGER),true)
 PRODUCT_PACKAGES += \
     product_charger_res_images \
     product_charger_res_images_vendor
-endif
 
 # Matlog
 ifeq ($(TARGET_INCLUDE_MATLOG),true)
