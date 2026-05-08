@@ -16,7 +16,7 @@
 SUPERIOR_MOD_VERSION = Thirteen
 
 ifndef SUPERIOR_BUILD_TYPE
-    SUPERIOR_BUILD_TYPE := COMMUNITY
+    SUPERIOR_BUILD_TYPE := Fan-Edition
 endif
 
 # Test Build Tag
